@@ -14,4 +14,5 @@ Accordung to Rayleigh's formulas the spherical bessel functions can be computed 
 
 The file spherical_bessel_functions.txt contains the formulas for the first 100 spherical bessel functions. 
 
-<sup>[1]<sup/> http://people.math.sfu.ca/~cbm/aands/page_439.htm
+<sup>[1]<sup/>
+  http://people.math.sfu.ca/~cbm/aands/page_439.htm
