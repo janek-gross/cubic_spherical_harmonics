@@ -1,3 +1,5 @@
+import sympy as sym
+
 def K_l_m(l,m):
     """
     Computes the constant pre-factor for the spherical harmonic of degree l and order m
@@ -7,7 +9,10 @@ def K_l_m(l,m):
     """
     return ((2*l+1)*np.math.factorial(l-abs(m))/(4*np.pi*np.math.factorial(l+abs(m))))**0.5
     
-def sin_cos_expressions(m): 
+def sin_cos_expressions(m):
+    x = sym.symbols('x')
+    y = sym.symbols('y')
+    
     S_m = [0]
     C_m = [1]
 
@@ -17,6 +22,8 @@ def sin_cos_expressions(m):
     return S_m, C_m
     
 def associated_legendre_polynomials(l,m):
+    z = sym.symbols('z')
+    
     P_l_m = [[0]*(j+1) for j in range(m+1)]
     P_l_m[0][0]=1
     P_l_m[1][0]=z
@@ -30,3 +37,20 @@ def associated_legendre_polynomials(l,m):
     
     P_l_m[m][m] = sym.simplify((1-2*m)*P_l_m[m-1][m-1])
     return P_l_m
+
+def spherical_harmonics_functions(l,m):
+    P_l_m = associated_legendre_polynomials(l,m)
+    S_m, C_m = sin_cos_expressions(m)
+    
+    Y_func_l_m = [[0]*(2*j+1) for j in range(m+1)]
+    for i in range(l+1):
+        Y_func_l_m[i][0] = sym.simplify(K_l_m(i,0) * P_l_m[i][0])
+    
+    for i in range(1,l+1):
+        for j in range(1,i+1):
+            Y_func_l_m[i][j] = sym.simplify(2**0.5 * K_l_m(i,j) * C_m[j] * P_l_m[i][j])
+    for i in range(1,l+1):
+        for j in range(1,i+1):
+            Y_func_l_m[i][-j] = sym.simplify(2**0.5 * K_l_m(i,-j) * S_m[j] * P_l_m[i][j])
+    return Y_func_l_m
+    
