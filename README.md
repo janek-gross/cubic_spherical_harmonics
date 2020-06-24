@@ -2,6 +2,7 @@
 The cubic spherical harmonic functions form an orthogonal basis of the 3-dimensional space.
 
 # Requirements
+- [x] python 3
 - [x] sympy
 - [x] numpy
 - [x] scipy
