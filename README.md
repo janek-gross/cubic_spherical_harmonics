@@ -9,7 +9,7 @@ The cubic spherical harmonic functions form an orthogonal basis of the 3-dimensi
 
 ## Spherical Bessel Functions
 The spherical bessel functions constitute the radial part of the wave function.
-Accordung to Rayleigh's<sup>1</sup> formulas the spherical bessel functions can be computed by recursion:
+Accordung to Rayleigh's formula<sup>1</sup> the spherical bessel functions can be computed by recursion:
 
 <img src="https://latex.codecogs.com/gif.latex?j_n(z)=(-\frac{1}{z}\frac{d}{dz})^n\frac{sin(z)}{z}" /> 
 
