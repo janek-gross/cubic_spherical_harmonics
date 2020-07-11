@@ -1,5 +1,5 @@
 # cubic_spherical_harmonics
-The cubic spherical harmonic functions form an orthogonal basis of the 3-dimensional space.
+The cubic spherical harmonic functions form an orthogonal basis of the 3-dimensional space. These functions are the fourier basis of the 3 dimensional space in spherical coordinates with radius <img src="https://latex.codecogs.com/gif.latex?r" /> longitude <img src="https://latex.codecogs.com/gif.latex?\theta" /> and latitude <img src="https://latex.codecogs.com/gif.latex?\phi" />. 
 <img src="https://latex.codecogs.com/gif.latex?\psi_{nlm}(r,\theta,\phi)=j_n(r)Y_{lm}(\theta,\phi)" /> 
 
 # Requirements
