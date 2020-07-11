@@ -22,4 +22,4 @@ The file spherical_bessel_functions.txt contains the analytic formulas for the f
 
 The spherical haromics constitute the angular part of the wave function.
 
-<img src="https://latex.codecogs.com/gif.latex?Y_{lm}= (-1)^m\sqrt{2}\sqrt{\frac{2l+1}{4\pi}\frac{(l-m)!}{(l+m)!}}P_l^m(cos \theta)cos(m\phi)" /> 
+<img src="https://latex.codecogs.com/gif.latex?Y_{lm}=(-1)^m\sqrt{2}\sqrt{\frac{2l+1}{4\pi}\frac{(l-|m|)!}{(l+|m|)!}}P_l^|m|(cos\theta)cos(|m|\phi)" /> 
