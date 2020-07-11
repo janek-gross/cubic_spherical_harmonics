@@ -2,6 +2,7 @@
 The cubic spherical harmonic functions form an orthogonal basis of the 3-dimensional space. These functions are the fourier basis of the 3 dimensional space in spherical coordinates with radius <img src="https://latex.codecogs.com/gif.latex?r" /> longitude <img src="https://latex.codecogs.com/gif.latex?\theta" /> and latitude <img src="https://latex.codecogs.com/gif.latex?\phi" />. 
 Each of these wave functions consists of radial part and an angular part.
 <img src="https://latex.codecogs.com/gif.latex?\psi_{nlm}(r,\theta,\phi)=j_n(r)Y_{lm}(\theta,\phi)" /> 
+<img src="https://github.com/janek-gross/cubic_spherical_harmonics/blob/master/wave_functions.gif?raw=true" width="800"  />
 
 # Requirements
 - [x] python 3
