@@ -29,3 +29,20 @@ The spherical haromics constitute the angular part of the wave function.
 The associated legendre polynomials
 
 <img src="https://latex.codecogs.com/gif.latex?P_l^m(x)=(-1)^{m}2^{l}(1-x^2)^{m/2}\sum_{k=m}^l\frac{k!}{(k-m)!}x^{k-m}\binom{l}{k}\binom{\frac{l+k-1}{2}}{l}" /> 
+
+
+<img src="https://latex.codecogs.com/gif.latex?Y_{lm}=\begin{cases}\displaystyle" /> 
+
+Y_{\ell m} =
+\begin{cases}
+ \displaystyle (-1)^m\sqrt{2} \sqrt{{2\ell+1 \over 4\pi}{(\ell-|m|)!\over (\ell+|m|)!}} \ 
+ P_\ell^{|m|}(\cos \theta) \ \sin( |m|\varphi )  
+ &\mbox{if } m<0 
+ \\
+ \displaystyle \sqrt{{ 2\ell+1 \over 4\pi}} \ P_\ell^m(\cos \theta) 
+ & \mbox{if } m=0 
+ \\
+ \displaystyle (-1)^m\sqrt{2} \sqrt{{2\ell+1 \over 4\pi}{(\ell-m)!\over (\ell+m)!}} \ 
+ P_\ell^m(\cos \theta) \ \cos( m\varphi )
+ & \mbox{if } m>0 \,.
+\end{cases}
