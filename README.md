@@ -31,7 +31,7 @@ The associated legendre polynomials
 <img src="https://latex.codecogs.com/gif.latex?P_l^m(x)=(-1)^{m}2^{l}(1-x^2)^{m/2}\sum_{k=m}^l\frac{k!}{(k-m)!}x^{k-m}\binom{l}{k}\binom{\frac{l+k-1}{2}}{l}" /> 
 
 
-<img src="https://latex.codecogs.com/gif.latex?Y_{lm}=\begin{cases}\displaystyle\end{cases}" /> 
+<img src="https://latex.codecogs.com/gif.latex?Y_{lm}=\begin{cases}\displaystyle\\\displaystyle\\\displaystyle\end{cases}" /> 
 
 Y_{\ell m} =
 \begin{cases}
