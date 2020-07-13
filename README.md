@@ -31,6 +31,6 @@ The associated legendre polynomials
 <img src="https://latex.codecogs.com/gif.latex?P_l^m(x)=(-1)^{m}2^{l}(1-x^2)^{m/2}\sum_{k=m}^l\frac{k!}{(k-m)!}x^{k-m}\binom{l}{k}\binom{\frac{l+k-1}{2}}{l}" /> 
 
 
-<img src="https://latex.codecogs.com/gif.latex?Y_{lm}=\begin{cases}{\displaystyle}Y_{lm}(\theta,\phi)=(-1)^m\sqrt{2}\sqrt{\frac{2l+1}{4\pi}\frac{(l-|m|)!}{(l+|m|)!}}P_l^{|m|}(cos\theta)sin(|m|\phi)\\{\displaystyle}Y_{lm}(\theta,\phi)=(-1)^m\sqrt{\frac{2l+1}{4\pi}}P_l^{|m|}(cos\theta)\\{\displaystyle}Y_{lm}(\theta,\phi)=(-1)^m\sqrt{2}\sqrt{\frac{2l+1}{4\pi}\frac{(l-m)!}{(l+m)!}}P_l^{m}(cos\theta)cos(m\phi)\end{cases}" /> 
+<img src="https://latex.codecogs.com/gif.latex?Y_{lm}(\theta,\phi)=\begin{cases}{\displaystyle}(-1)^m\sqrt{2}\sqrt{\frac{2l+1}{4\pi}\frac{(l-|m|)!}{(l+|m|)!}}P_l^{|m|}(cos\theta)sin(|m|\phi)\\{\displaystyle}(-1)^m\sqrt{\frac{2l+1}{4\pi}}P_l^{m}(cos\theta)\\{\displaystyle}(-1)^m\sqrt{2}\sqrt{\frac{2l+1}{4\pi}\frac{(l-m)!}{(l+m)!}}P_l^{m}(cos\theta)cos(m\phi)\end{cases}" /> 
 
 
