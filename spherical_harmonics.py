@@ -38,7 +38,7 @@ def associated_legendre_polynomials(l,m):
     P_l_m[m][m] = sym.simplify((1-2*m)*P_l_m[m-1][m-1])
     return P_l_m
 
-def spherical_harmonics_functions(l,m):
+def spherical_harmonic_functions(l,m):
     P_l_m = associated_legendre_polynomials(l,m)
     S_m, C_m = sin_cos_expressions(m)
     
