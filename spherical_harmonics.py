@@ -10,6 +10,10 @@ def K_l_m(l,m):
     return ((2*l+1)*np.math.factorial(l-abs(m))/(4*np.pi*np.math.factorial(l+abs(m))))**0.5
     
 def sin_cos_expressions(m):
+    """
+    Computes the necessary sympy sine and cosine expressions
+    for the spherical harmonics up to and including order m.
+    """
     x = sym.symbols('x')
     y = sym.symbols('y')
     
@@ -22,6 +26,9 @@ def sin_cos_expressions(m):
     return S_m, C_m
     
 def associated_legendre_polynomials(l,m):
+    """
+    Computes the sympy fomulas for the associated legendre polynomials up to and including degree l and order m.
+    """
     z = sym.symbols('z')
     
     P_l_m = [[0]*(j+1) for j in range(m+1)]
