@@ -18,7 +18,7 @@ Accordung to Rayleigh's formula<sup>1</sup> the spherical bessel functions can b
 
 The file spherical_bessel_functions.txt contains the analytic formulas for the first 85 spherical bessel functions. 
 
-<img src="https://github.com/janek-gross/cubic_spherical_harmonics/blob/master/spherical_bessel_functions.png?raw=true" width="800"  />
+<img src="https://github.com/janek-gross/cubic_spherical_harmonics/blob/master/spherical_bessel_functions/spherical_bessel_functions.png?raw=true" width="800"  />
 <sup>1</sup>http://people.math.sfu.ca/~cbm/aands/page_439.htm
 
 ## Real Spherical Harmonic Functions
