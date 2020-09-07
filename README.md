@@ -35,7 +35,7 @@ The formulas are computed using the algorithm described by Sloan P. 2008<sup>2<s
   
 <img src="https://latex.codecogs.com/gif.latex?P_l^m(x)=(-1)^{m}2^{l}(1-x^2)^{m/2}\sum_{k=m}^l\frac{k!}{(k-m)!}x^{k-m}\binom{l}{k}\binom{\frac{l+k-1}{2}}{l}" /> 
 
-
+## References
 
 <sup>1</sup>http://people.math.sfu.ca/~cbm/aands/page_439.htm
 
