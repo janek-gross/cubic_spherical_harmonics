@@ -38,5 +38,8 @@ The formulas are computed using the algorithm described by Sloan P. 2008<sup>2<s
 
 
 <sup>1</sup>http://people.math.sfu.ca/~cbm/aands/page_439.htm
+
 <sup>2</sup> Sloan, P. P. (2008, February). Stupid spherical harmonics (sh) tricks. In Game developers conference (Vol. 9, p. 42).
 
+## License
+https://unlicense.org
