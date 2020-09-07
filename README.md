@@ -34,7 +34,7 @@ Where <img src="https://latex.codecogs.com/gif.latex?P_l^m" /> are the associate
 <img src="https://latex.codecogs.com/gif.latex?P_l^m(x)=(-1)^{m}2^{l}(1-x^2)^{m/2}\sum_{k=m}^l\frac{k!}{(k-m)!}x^{k-m}\binom{l}{k}\binom{\frac{l+k-1}{2}}{l}" /> 
 
 The formulas are computed using the algorithm described by Sloan P. 2008<sup>2</sup>. The formulas coincide with the fomulas presented by the authors.
-Note that in some of the formulas the sign deviates from the ones lised on <a href=https://en.wikipedia.org/wiki/Table_of_spherical_harmonics#Real_spherical_harmonics>Wikipedia</a>.
+Note that in some of the formulas the sign deviates from the ones listed on <a href=https://en.wikipedia.org/wiki/Table_of_spherical_harmonics#Real_spherical_harmonics>Wikipedia</a>.
   
 ## References
 
